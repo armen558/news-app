@@ -1,0 +1,45 @@
+.contactForm {
+    padding: 30px;
+}
+
+.contactForm form {
+    max-width: 350px;
+    margin: auto;
+}
+.contactForm form input, 
+.contactForm form textarea {
+    font-family: "Source Sans Pro", sans-serif;
+    border: 1px solid #DDDDDD;
+    background-color: #FFFFFF;
+    color: #000000;
+    border-radius: 5px;
+    padding: 8px 15px;
+    display: block;
+    margin: 10px 0;
+    width: 100%;
+    outline: none;
+    font-size: 14px;
+}
+.contactForm form input::placeholder, 
+.contactForm form textarea::placeholder {
+    color: #000000;
+    opacity: 0.6;
+}
+
+.contactForm form textarea {
+    height: 100px;
+    resize: none;
+}
+.contactForm form p {
+    margin: 5px 0 15px;
+    color: red;
+    font-size: 12px;
+    line-height: 16px;
+}
+.contactForm form input[type="submit"] {
+    width: auto;
+    margin: 20px auto 0 auto;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+}

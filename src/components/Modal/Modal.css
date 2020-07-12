@@ -1,0 +1,32 @@
+.modal {
+    position: fixed;
+    top: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 95%;
+    max-width: 700px;
+    min-height: 300px;
+    z-index: 10;
+    overflow-y: auto;
+    background-color: #FFFFFF;
+    max-height: 90vh;
+    border-radius: 5px;
+    box-shadow: 0 0 15px -5px rgba(0,0,0,0.5);
+}
+
+.modal .imgWrap img {
+    width: 100%;
+}
+.modal .text {
+    padding: 30px 20px 20px 20px;
+}
+.modal .closeBtn {
+    position: absolute;
+    right: 15px;
+    top: 5px;
+    font-size: 30px;
+    line-height: 30px;
+    color: #FFFFFF;
+    text-shadow: 0 0 2px #000000;
+    cursor: pointer;
+}
